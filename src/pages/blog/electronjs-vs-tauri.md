@@ -89,13 +89,12 @@ Now you can build your app installing electron-builder adding to next script:
 
 ```json
 "package": "electron-builder build"
-
 ```
 
 Note that electron is just a library and use you should have knowledge to start implementing the app, there are useful tools to scaffold the app like electron forge the all-in-one tool for packaging and distributing Electron applications.
 
 
-## What is the best option?
+## What is the best option? 
 Both Tauri and Electron have it strengths and drawbacks, in the first side we have the performance and security vs the use of a common tool for web developers like node js. Both provide a great developer experience a great set of tools for the native functionality. Tauri is more like a complete framework with a set of conventions and cli tools, in the other hand. Electron is more like a library that provides a bridge between node and chromium.
 
 For me the decision is clear electron is still the best option for the familiarity of tools, Rust have the power but not the commodity that offers a always used runtime. Speaking about the best tool Tauri is one step ahead but still there is one king.

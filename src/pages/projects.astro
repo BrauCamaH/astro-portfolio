@@ -2,24 +2,21 @@
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
-import { getFormattedDate } from "@utils/all";
+import { Icon } from "astro-icon";
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
-const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
+const posts = (await Astro.glob("./projects/*.{md,mdx}")).sort(
   (a, b) =>
     new Date(b.frontmatter.publishDate).valueOf() -
     new Date(a.frontmatter.publishDate).valueOf()
 );
-console.log(posts[0].frontmatter.image);
 ---
 
 <Layout title="Projects">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Blog</Fragment>
-      <Fragment slot="desc">
-        I write about Web and Video Game development.
-      </Fragment>
+      <Fragment slot="title">Projects</Fragment>
+      <Fragment slot="desc"></Fragment>
     </Sectionhead>
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
@@ -36,6 +33,11 @@ console.log(posts[0].frontmatter.image);
                       loading="eager"
                       class="w-full rounded-md"
                     />
+                    <div class="flex m-6 items-center justify-center  flex-wrap">
+                      {post.frontmatter.icons.map((icon) => (
+                        <Icon class="h-8 md:h-8" name={icon} />
+                      ))}
+                    </div>
                   </div>
                   <div>
                     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
@@ -48,14 +50,8 @@ console.log(posts[0].frontmatter.image);
 
                     <div class="flex gap-2 mt-3">
                       <span class="text-gray-400">
-                        {post.frontmatter.author}
+                        {post.frontmatter.excerpt}
                       </span>
-                      <span class="text-gray-400">• </span>
-                      <time
-                        class="text-gray-400"
-                        datetime={post.frontmatter.publishDate}>
-                        {getFormattedDate(post.frontmatter.publishDate)}
-                      </time>
                     </div>
                   </div>
                 </div>

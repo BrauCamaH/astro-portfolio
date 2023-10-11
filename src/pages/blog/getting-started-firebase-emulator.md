@@ -142,9 +142,11 @@ if (process.env.NODE_ENV === "development") {
 Once used the firebase emulators start command now you can access to the Emulator UI, there you will notice the change of a purple like theme. This is meant to be clear that your are running in a development safe enviroment.
 
 Inside the overview tab you can see the different emulators , with the respectives ports and status.
+
 ![emulator suite](https://miro.medium.com/v2/resize:fit:630/1*TGomZ5496Qwj4Sbq6ujI2A.png)
 
 In this example Authentication, Firestore and Storage are enabled. You will noticed some changes to the production version, like the clear all data button. But do not worry about it, remember to use firebase emulators:export seed that will create the seed folder inside your project and all you data will be saved.
+
 ![emulator suite](https://miro.medium.com/v2/resize:fit:630/1*WLdgl3FRS-RmA9UIPXyovg.png)
 ![emulator suite](https://miro.medium.com/v2/resize:fit:630/1*3TGi6ygH_wVtMZSyxbiOcQ.png)
 ![emulator suite](https://miro.medium.com/v2/resize:fit:630/1*J6B5MHV_80PeL1F9G8QrJQ.png)
