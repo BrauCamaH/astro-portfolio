@@ -1,5 +1,5 @@
 ---
-title: " NoteCostLink "
+title: " MD Editor "
 excerpt: "MD Editor is a Markdown Editor where you can create, edit and visualize Mardown files."
 publishDate: "2023-10-01T15:36:19.399Z"
 image: "https://res.cloudinary.com/dkx5ex92h/image/upload/v1697070814/portfolio/projects/mdeditor/ecw3qywikscsyotdaeyk.png"
