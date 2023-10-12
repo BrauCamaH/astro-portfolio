@@ -13,7 +13,6 @@ UI Toolkit is the new way to create user interfaces. It replaces the Unity UI (u
 
 ## Overview
 
-QGG
 Chances are that you have been struggling with the old UI system, even though some games do not need a scalable way to create a user interface, sometimes you need to face the problem of create complexes UI systems. So, Unity now offers a new way that will help you in these special cases.
 
 UI Toolkit is mean to be used as the recommended UI system and is installed by default since Unity 2021 LTS. It has a different approach where the UI is separated from the scene. Now you create UI Documents (UXML), and Stylesheets (USS), all these with the help of the UI Builder window. It allows you to visualize, create and modify a UI Document on the fly.
@@ -24,10 +23,7 @@ To create a new document in the hierarchy window, only use left click and select
 
 This will create a Game Object with a UI Document component attached.
 
-<div class="flex justify-center items-center">
-  ![ui
-  document.](https://miro.medium.com/v2/resize:fit:289/1*dd7ocnSvMmmze8XLtD9tdg.png)
-</div>
+![ui document.](https://miro.medium.com/v2/resize:fit:289/1*dd7ocnSvMmmze8XLtD9tdg.png)
 
 Now it's time to open the UI Builder that will create a UXML and USS file.
 
