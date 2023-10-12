@@ -1,5 +1,5 @@
 ---
-title: " Using Vite with Ionic React"
+title: "Electron js vs Tauri"
 excerpt: "Make desktop apps using web technologies can be tricky, so there was a framework that used to dominated the game Electron."
 publishDate: "2023-08-01T15:36:19.399Z"
 image: "https://miro.medium.com/v2/resize:fit:630/1*GeJiIwfC1EbzxpukTZLF6g.jpeg"
@@ -68,7 +68,6 @@ npm install electron -D
 Then create a main.js that will be the entry of your app, every electron app have one main process running it manages the cycle of the app. When the main process is ready you can instantiate a new window to load the frontend. It will render the html, css and javascript and give you access to the native Apis. As example I will use a plain html file.
 
 ```javascript
-
 const {app, BrowserWindow} = require(‘electron’)
 app.whenReady().then(())=>{
   const myWindow = new BrowserWindow({

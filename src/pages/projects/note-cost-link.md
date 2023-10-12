@@ -3,7 +3,7 @@ title: " NoteCostLink "
 excerpt: "Cost Wallet is a simple and easy-to-use app that helps you track and manage your expenses."
 publishDate: "2023-08-01T15:36:19.399Z"
 image: "https://res.cloudinary.com/dkx5ex92h/image/upload/v1695530731/portfolio/projects/notecostlink/txsuuzp9lqllqotsgai1.png"
-category: "Progressive Web App"
+category: "Web App"
 author: "Braulio Camarena"
 layout: "@layouts/ProjectLayout.astro"
 icons: [simple-icons:react, simple-icons:capacitor, simple-icons:firebase]
