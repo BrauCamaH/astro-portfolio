@@ -14,7 +14,7 @@ const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" transition:animate="none">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -32,14 +32,18 @@ const { title } = Astro.props;
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Braulio Camaren Portfolio",
+          alt: "Braulio Camarena Portfolio",
         },
       }}
     />
   </head>
   <body>
     <Navbar />
-    <slot />
+    <main transition:animate="slide">
+      <article>
+        <slot />
+      </article>
+    </main>
     <Footer />
     <style is:global>
       /* Improve Page speed */
