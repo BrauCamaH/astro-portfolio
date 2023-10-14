@@ -157,4 +157,4 @@ One important tab is the one named “Logs” where you can check all activity m
 
 ## Conclusión
 
-This is a the firts step to use the Emulator Suite, as you can see is really straightfoward and it have a lot of benefits. Now is time to start using it in your firebase projects and start messing around without worry.
+This is a the first step to use the Emulator Suite, as you can see is really straightfoward and it have a lot of benefits. Now is time to start using it in your firebase projects and start messing around without worry.

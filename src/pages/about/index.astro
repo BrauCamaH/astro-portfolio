@@ -10,6 +10,7 @@ const Img3 = "https://source.unsplash.com/mZnx9429i94";
 const interests = [
   {
     name: "Books",
+    url: "books",
     title: "I like specially science fiction",
     avatar: {
       src: Img1,
@@ -19,6 +20,7 @@ const interests = [
   },
   {
     name: "Sports",
+    url: "sports",
     title: "I practice sports like basketball and soccer",
     avatar: {
       src: Img2,
@@ -29,6 +31,7 @@ const interests = [
   {
     name: "Software development",
     title: "I use React and Nodejs",
+    url: "programming",
     avatar: {
       src: Img3,
       width: 580,
@@ -58,12 +61,12 @@ const interests = [
           <div class="group">
             <div class="w-full aspect-square">
               <img
+                transition:name={item.url}
                 {...item.avatar}
                 alt="Team"
                 class="w-full h-full object-cover rounded transition  group-hover:-translate-y-1 group-hover:shadow-xl"
               />
             </div>
-
             <div class="mt-4 text-center">
               <h2 class="text-lg text-gray-800"> {item.name}</h2>
               <h3 class="text-sm text-slate-500"> {item.title}</h3>

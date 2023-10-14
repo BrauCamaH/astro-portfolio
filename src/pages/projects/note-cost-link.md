@@ -1,6 +1,6 @@
 ---
 title: " NoteCostLink "
-excerpt: "Cost Wallet is a simple and easy-to-use app that helps you track and manage your expenses."
+excerpt: "NoteCostLink is a simple and easy-to-use app that helps you track and manage your expenses."
 publishDate: "2023-08-01T15:36:19.399Z"
 image: "https://res.cloudinary.com/dkx5ex92h/image/upload/v1695530731/portfolio/projects/notecostlink/txsuuzp9lqllqotsgai1.png"
 category: "Web App"
@@ -8,7 +8,7 @@ author: "Braulio Camarena"
 layout: "@layouts/ProjectLayout.astro"
 icons: [simple-icons:react, simple-icons:capacitor, simple-icons:firebase]
 ---
-Cost Wallet is a simple and easy-to-use app that helps you track and manage your expenses. With Cost Wallet, you can easily add and categorize your expenses, and see where your money is going. The app also has a account feature that lets you set an account as needed, and track your progress against it.
+NoteCostLink is a simple and easy-to-use app that helps you track and manage your expenses. With Cost Wallet, you can easily add and categorize your expenses, and see where your money is going. The app also has a account feature that lets you set an account as needed, and track your progress against it.
 
 ## Feautures
 * Add and categorize expenses
@@ -32,7 +32,6 @@ Cost Wallet is a simple and easy-to-use app that helps you track and manage your
 ) 
 
 # Github
-You can wach the code from the next link
+You can watch the code from the next link
 
-[@repo](https://github.com/BrauCamaH/cost-wallet
-) 
+[@repo](https://github.com/BrauCamaH/cost-wallet) 
