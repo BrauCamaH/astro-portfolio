@@ -19,7 +19,7 @@ To install the Emulator suite make sure to have the next:
 
 > Java Development Kit 11 or upper.
 
-Now follow the next instructions to intall the suite.
+Now follow the next instructions to install the suite.
 
 1. Install Firebase CLI, you will need a version 8.14.0 or superior.
 

@@ -8,7 +8,7 @@ author: "Braulio Camarena"
 layout: "@layouts/ProjectLayout.astro"
 icons: [simple-icons:react, simple-icons:capacitor, simple-icons:firebase]
 ---
-NoteCostLink is a simple and easy-to-use app that helps you track and manage your expenses. With Cost Wallet, you can easily add and categorize your expenses, and see where your money is going. The app also has a account feature that lets you set an account as needed, and track your progress against it.
+NoteCostLink is a simple and easy-to-use app that helps you track and manage your expenses. With NoteCostLink, you can easily add and categorize your expenses, and see where your money is going. The app also has a account feature that lets you set an account as needed, and track your progress against it.
 
 ## Feautures
 * Add and categorize expenses
