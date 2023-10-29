@@ -13,7 +13,7 @@ UI Toolkit is the new way to create user interfaces. It replaces the Unity UI (u
 
 ## Overview
 
-Chances are that you have been struggling with the old UI system, even though some games do not need a scalable way to create a user interface, sometimes you need to face the problem of create complexes UI systems. So, Unity now offers a new way that will help you in these special cases.
+Chances are that you have been struggling with the old UI system, even though some games do not need a scalable way to create a user interface, sometimes you need to face the problem of create complex UI systems.So, Unity now offers a new way that will help you in these special cases.
 
 UI Toolkit is mean to be used as the recommended UI system and is installed by default since Unity 2021 LTS. It has a different approach where the UI is separated from the scene. Now you create UI Documents (UXML), and Stylesheets (USS), all these with the help of the UI Builder window. It allows you to visualize, create and modify a UI Document on the fly.
 
@@ -49,7 +49,7 @@ Inside the Inline Styles you will be most of the time changing the different pro
 
 ### Viewport
 
-Within the viewport section you can see the canvas, a container that will allow you to edit a live version of the Document (UXML). You can resize the Canvas inside the section by dragging its edges or Coners. Here you be able to add different kinds of containers, controls and fields.
+Within the viewport section you can see the canvas, a container that will allow you to edit a live version of the Document (UXML). You can resize the Canvas inside the section by dragging its edges or coners. Here you be able to add different kinds of containers, controls and fields.
 
 Remember that we are working with separates files, here you can preview the UMXL and USS files where you can open with you preferer editor and start editing manually.
 
@@ -57,7 +57,7 @@ Remember that we are working with separates files, here you can preview the UMXL
 
 Inside the inspector you can change the canvas size manually or match with the game view. The second can be really useful for see the correct iteration of the UI process.
 
-Also, you can change the canvas color, use an image or the camara view as background. Notice that can toggle her the Editor Extension Authoring to enable work with the Editor UI in case that you are developing an editor extension.
+Also, you can change the canvas color, use an image or the camara view as background. Notice that can toggle the Editor Extension Authoring to enable work with the Editor UI in case that you are developing an editor extension.
 
 ![ui document.](https://miro.medium.com/v2/resize:fit:270/1*XyIJqLLFv5U1BZyWIacTsw.png)
 
@@ -81,7 +81,7 @@ Here is used the box model that is essentially a box that wraps around every HTM
 
 ### library
 
-Inside the library we will find two tabs Standard and Project. Inside the first you will see the containers, controls and numeric fields. Inside the other you will use another UI Document created.
+Inside the library we will find two tabs **Standard** and **Project**. Inside the first you will see the containers, controls and numeric fields. Inside the other you will use another UI Document created.
 
 The containers section has all the different components that will help you to group UI elements. The Visual Element is like an empty Game Object or Div in html. The other components are kinds of views.
 ![box model.](https://miro.medium.com/v2/resize:fit:167/1*3lU7x0EFBWmZ_GoztAKgPw.png)
@@ -91,6 +91,7 @@ Inside the controls section you will find the most of elements needed to build a
 ![box model.](https://miro.medium.com/v2/resize:fit:512/1*7GaHbWO08Whs5KFdMkb5sg.png)
 
 The final part is for Numeric Fields where you can search for different kinds of Input related to all numeric values needed including advanced ones like Vector 4.
+
 ![box model.](https://miro.medium.com/v2/resize:fit:507/1*KAFRJJLQ9IjKaxiJVlM3EA.png)
 
 As you can see almost everything that you need to create a user interface is inside the Standard Tab, but what if i what to reuse another UI Document? The Project Tab is where you can search for other Components created by yourself and include it as UI Document in the hierarchy.
