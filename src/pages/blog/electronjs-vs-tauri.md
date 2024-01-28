@@ -13,7 +13,7 @@ Make desktop apps using web technologies can be tricky, so there was a framework
 
 ## Overview
 
-Electron have a great developer experience, it uses node js as backend making posible the use of native Apis. It uses Chromium to render the view, so you will need that space in disk even though you just need to show a “hello word”.
+Electron have a great developer experience, it uses node js as backend making possible the use of native Apis. It uses Chromium to render the view, so you will need that space in disk even though you just need to show a “hello word”.
 
 Tauri uses another approach where the performance is the key. It uses Rust as a backend and from the fronted the libraries Tao and Wry to provide a lightweight WebView. The Tauri api provides a secure way to access native functionality and is secure by default.
 
@@ -31,7 +31,7 @@ In the frontend code a vast of native Apis can be accessed. for example, write f
 
 ```javascript
 import { writeFile, FSTextFileOption } from "tauri-apps/api/fs";
-const handelClick = async () => {
+const handleClick = async () => {
   const f: FsTextFileOption = {
     path: "./test.txt",
     contents: "file content",
@@ -40,7 +40,7 @@ const handelClick = async () => {
 };
 ```
 
-Access any api methods can be allowed inside the allow list atribute at Tauri conf.json. Remember that Tauri is secure by default.
+Access any api methods can be allowed inside the allow list attribute at Tauri conf.json. Remember that Tauri is secure by default.
 
 ```javascript
 "allowlist":{
@@ -85,6 +85,7 @@ myWindow.loadFile('index.html');
 Create a new html file and put whatever code you want inside of it. now you once you run the app with “npm run electron” and you will notice that a new window appeared with the html content.
 
 Now you can build your app installing electron-builder adding to next script:
+
 
 ```json
 "package": "electron-builder build"

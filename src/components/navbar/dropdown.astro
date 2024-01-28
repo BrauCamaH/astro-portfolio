@@ -14,7 +14,7 @@ const { title, lastItem, children } = Astro.props;
       stroke-width="3"
       stroke="currentColor"
       class="w-3 h-3 mt-0.5"
-      :class="{'rotate-180': open, 'rotate-0': !open}">
+
       <path
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -24,7 +24,7 @@ const { title, lastItem, children } = Astro.props;
   <div
     x-cloak
     x-show="open"
-    class:list={[
+   class:list={[
       "lg:absolute  w-full  lg:w-48",
       lastItem ? "lg:right-0 origin-top-right" : "lg:left-0 origin-top-left",
     ]}>

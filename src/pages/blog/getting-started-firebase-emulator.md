@@ -1,15 +1,15 @@
 ---
 title: "Getting started with Firebase Emulator Suite"
-excerpt: "The new Firebase Emulator allow you manage a firebase project inside your own local enviroment."
+excerpt: "The new Firebase Emulator allow you manage a firebase project inside your own local environment."
 publishDate: "2023-08-04T15:36:19.399Z"
 image: "https://miro.medium.com/v2/resize:fit:630/1*pCuwNTu1PZfvzGYzJwRt3A@2x.png"
 category: "Firebase"
 author: "Braulio Camarena"
 layout: "@layouts/BlogLayout.astro"
-tags: [firebase, local enviroment, firebase emulator suite]
+tags: [firebase, local enviromment, firebase emulator suite]
 ---
 
-The new Firebase Emulator allow you manage a firebase project inside your own local enviroment. This can be really usefull when you need to try your apps feautures, also you do not want to mess around with production. So Firebase Emulator should be the way to go at developing Apps with Firebase.
+The new Firebase Emulator allow you manage a firebase project inside your own local environment. This can be really useful when you need to try your apps features, also you do not want to mess around with production. So Firebase Emulator should be the way to go at developing Apps with Firebase.
 
 # Installation
 
@@ -59,7 +59,7 @@ firebase init emulators
 
 At the final part you can choose the ports of each feature. In this case default values are selected.
 
-After installation proccess in completed a message will appeared, noticing the creation of firebase.json and firebaserc config files.
+After installation process in completed a message will appeared, noticing the creation of firebase.json and firebaserc config files.
 
 ## Configuration Process
 
@@ -88,7 +88,7 @@ The firebase.json contains the configuration of the emulators, where the port is
 }
 ```
 
-Inside package.json is necesary to add the functionality of start the emulator with a “seed”, a folder generaded once the export command is executed, this will allow you to export all the data that is inside the the emulator suite. This is meant to be a important feature because now you can mess around with the functionality of your app.
+Inside package.json is nescesary to add the functionality of start the emulator with a “seed”, a folder generaded once the export command is executed, this will allow you to export all the data that is inside the emulator suite. This is meant to be a important feature because now you can mess around with the functionality of your app.
 
 ```json
 scripts: {
@@ -99,7 +99,7 @@ scripts: {
 
 ## Conectig App to Emulator
 
-At your firebase config file, you can initialize and connect to the emulators. Notice that you should add logic to allow only connect to emulators on the development eviroment, with Node js you can add this logic with the procces.env.NODE.ENV variable, where should be equals to “development”.
+At your firebase config file, you can initialize and connect to the emulators. Notice that you should add logic to allow only connect to emulators on the development eviroment, with Node js you can add this logic with the process.env.NODE.ENV variable, where should be equals to “development”.
 
 ```javascript
 import { initializeApp } from "firebase/app";
@@ -139,7 +139,7 @@ if (process.env.NODE_ENV === "development") {
 
 ## Firebase Emulator UI Overview
 
-Once used the firebase emulators start command now you can access to the Emulator UI, there you will notice the change of a purple like theme. This is meant to be clear that your are running in a development safe enviroment.
+Once used the firebase emulators start command now you can access to the Emulator UI, there you will notice the change of a purple like theme. This is meant to be clear that your are running in a development safe environment.
 
 Inside the overview tab you can see the different emulators , with the respectives ports and status.
 
@@ -151,10 +151,10 @@ In this example Authentication, Firestore and Storage are enabled. You will noti
 ![emulator suite](https://miro.medium.com/v2/resize:fit:630/1*3TGi6ygH_wVtMZSyxbiOcQ.png)
 ![emulator suite](https://miro.medium.com/v2/resize:fit:630/1*J6B5MHV_80PeL1F9G8QrJQ.png)
 
-One important tab is the one named “Logs” where you can check all activity made. This is really usefull at time to find query leaks.
+One important tab is the one named “Logs” where you can check all activity made. This is really useful at time to find query leaks.
 ![emulator suite](https://miro.medium.com/v2/resize:fit:630/1*PfShV-udlX9rQGdVb0wW3g.png)
 
 
 ## Conclusión
 
-This is a the first step to use the Emulator Suite, as you can see is really straightfoward and it have a lot of benefits. Now is time to start using it in your firebase projects and start messing around without worry.
+This is a the first step to use the Emulator Suite, as you can see is really straightforward and it have a lot of benefits. Now is time to start using it in your firebase projects and start messing around without worry.

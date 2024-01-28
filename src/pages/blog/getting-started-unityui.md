@@ -41,7 +41,7 @@ As you can see you will notice the next sections:
 
 ### Inspector
 
-The inspector has the same functionality as the one of the Unity Editor, it´s used to show the properties and options of the elements selected, a Visual Element will show the atributes, stylesheet and inline styles.
+The inspector has the same functionality as the one of the Unity Editor, it´s used to show the properties and options of the elements selected, a Visual Element will show the attributes, stylesheet and inline styles.
 
 Inside the Inline Styles you will be most of the time changing the different properties. Each saved change will be reflected inside the UXML code of the document
 
@@ -49,7 +49,7 @@ Inside the Inline Styles you will be most of the time changing the different pro
 
 ### Viewport
 
-Within the viewport section you can see the canvas, a container that will allow you to edit a live version of the Document (UXML). You can resize the Canvas inside the section by dragging its edges or coners. Here you be able to add different kinds of containers, controls and fields.
+Within the viewport section you can see the canvas, a container that will allow you to edit a live version of the Document (UXML). You can resize the Canvas inside the section by dragging its edges or corners. Here you be able to add different kinds of containers, controls and fields.
 
 Remember that we are working with separates files, here you can preview the UMXL and USS files where you can open with you preferer editor and start editing manually.
 
@@ -106,7 +106,7 @@ Now It is time to add some functionality to a User Interface. First remember to 
 Now you should add a id to the button, this is the way to start programming because we will need a reference of the button.
 
 The code above shows the implementation of a restart button, once clicked the Restart Button the Scene Manager will load the current scene. Note that we need the Unity.UIElements scope to reference a UIDocument, At the
-Start function we get a the root visual element where will be reference the button using a generic function that accepts as parameter the decided id assigned before.
+Start function we get the root visual element where will be reference the button using a generic function that accepts as parameter the decided id assigned before.
 
 ```csharp
 using UnityEngine;

@@ -10,7 +10,7 @@ icons: [simple-icons:react, simple-icons:capacitor, simple-icons:firebase]
 ---
 NoteCostLink is a simple and easy-to-use app that helps you track and manage your expenses. With NoteCostLink, you can easily add and categorize your expenses, and see where your money is going. The app also has a account feature that lets you set an account as needed, and track your progress against it.
 
-## Feautures
+## Features
 * Add and categorize expenses
 * Track you spending 
 * View detailed reports and chats of your expenses
